@@ -41,4 +41,3 @@ if __name__ == '__main__':
             ]
             res = tsp(data)
             print(res)
-#jikkenn
