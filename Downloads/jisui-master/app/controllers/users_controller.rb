@@ -6,7 +6,7 @@ class UsersController < ApplicationController
     def create
         @user = User.new(users_params)
         if @user.save
-			redirect_to "/" 
+			redirect_to "/"
 		else
 			render 'signup'
 		end
@@ -14,6 +14,7 @@ class UsersController < ApplicationController
     end
 
     def detail
+
     end
 
     def users_params
