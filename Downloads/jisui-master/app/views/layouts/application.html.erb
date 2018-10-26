@@ -12,7 +12,7 @@
   <body>
     <header>
         <div class="header-logo">
-          <%= link_to("じすぃ〜", "/posts/index") %>
+          <%= link_to("じすぃ〜", "/") %>
         </div>
         <div class="header-menus">
           <li>
@@ -22,7 +22,15 @@
             <%= link_to("新規登録", "/signup") %>
           </li>
           <li>
-            <%= link_to("ログイン", "/mypage/:id") %>
+
+            <label>ユーザー名:</label>
+                      <input type="text" name="name">
+           
+                      <label>パスワード:</label>
+                      <input type="password" name="password">
+                    <%= link_to("ログイン", "/mypage/:id") %>
+
+
           </li>
           <li>
             <%= link_to("レシピ集", "#") %>
