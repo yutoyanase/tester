@@ -1,0 +1,19 @@
+current directory: /Users/yanaseyuto/Downloads/jisui-master/vendor/bundle/gems/byebug-10.0.2/ext/byebug
+/Users/yanaseyuto/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20181026-3152-3thw4d.rb extconf.rb
+creating Makefile
+
+current directory: /Users/yanaseyuto/Downloads/jisui-master/vendor/bundle/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/yanaseyuto/Downloads/jisui-master/vendor/bundle/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/yanaseyuto/Downloads/jisui-master/vendor/bundle/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.bundle ./.gem.20181026-3152-na8hww/byebug
