@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PreJisui</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <header>
+        <div class="header-logo">
+          <%= link_to("じすぃ〜", "/") %>
+        </div>
+        <div class="header-menus">
+          <li>
+            <%= link_to("じすぃ〜とは", "#") %>
+          </li>
+          <li>
+            <%= link_to("新規登録", "/signup") %>
+          </li>
+          <li>
+
+            <label>ユーザー名:</label>
+                      <input type="text" name="name">
+           
+                      <label>パスワード:</label>
+                      <input type="password" name="password">
+                    <%= link_to("ログイン", "/mypage/:id") %>
+
+
+          </li>
+          <li>
+            <%= link_to("レシピ集", "#") %>
+          </li>
+        </div>
+    </header>
+    <div class="clear"></div>
+    <%= yield %>
+  </body>
+</html>

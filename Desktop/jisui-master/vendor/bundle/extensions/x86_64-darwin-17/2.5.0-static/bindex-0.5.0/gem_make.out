@@ -1,0 +1,15 @@
+current directory: /Users/yanaseyuto/Downloads/jisui-master/vendor/bundle/gems/bindex-0.5.0/ext/bindex
+/Users/yanaseyuto/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20181026-34020-cnx12v.rb extconf.rb
+creating Makefile
+
+current directory: /Users/yanaseyuto/Downloads/jisui-master/vendor/bundle/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" clean
+
+current directory: /Users/yanaseyuto/Downloads/jisui-master/vendor/bundle/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.bundle
+
+current directory: /Users/yanaseyuto/Downloads/jisui-master/vendor/bundle/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20181026-34020-1hw1pnc/bindex
