@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PreJisui</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <header>
+        <div class="header-logo">
+          <%= link_to("じすぃ〜", "/") %>
+        </div>
+        <div class="header-menus">
+          <li>
+            <%= link_to("じすぃ〜とは", "#") %>
+          </li>
+          <li>
+            <%= link_to("マイページ", "/mypage/1") %>
+          </li>
+          <li>
+            <%= link_to("比較する", "/meal/select") %>
+          </li>
+          <li>
+            <%= link_to("履歴", "/meal/history") %>
+          </li>
+        </div>
+    </header>
+    <div class="clear"></div>
+    <%= yield %>
+  </body>
+</html>
